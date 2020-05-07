@@ -13,3 +13,4 @@
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git frainzy1477 https://github.com/frainzy1477/luci-app-clash' feeds.conf.default
